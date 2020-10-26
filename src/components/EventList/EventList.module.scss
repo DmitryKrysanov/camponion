@@ -1,0 +1,33 @@
+@import './../../constants/guideline.scss';
+
+.event_list {
+    height: calc(100vh - 164px);
+    position: relative;
+    overflow-y: scroll;
+    
+    .tab_bar {
+        position: absolute;
+    }
+
+    .list {
+        margin-top: 48px;
+    }
+
+    .list_loader {
+        text-align: center;
+    }
+
+    .list_empty_state {
+        text-align: center;
+        padding: 24px;
+
+        svg {
+            fill: $dark-medium-emphasis-font-color;
+            margin-bottom: 16px;
+        }
+
+        h3 {
+            color: $dark-medium-emphasis-font-color;
+        }
+    }
+}

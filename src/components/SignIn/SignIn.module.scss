@@ -1,0 +1,38 @@
+@import './../../constants/guideline.scss';
+
+.signin {
+    padding: 24px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    .btn__google {
+        background-color: #fff;
+        margin-bottom: 16px;
+
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    .hint {
+        text-align: center;
+        color: $dark-medium-emphasis-font-color;
+        margin-bottom: 16px;
+    }
+
+    .input {
+        margin-bottom: 16px;
+    }
+
+    .help_link {
+        text-align: right;
+        margin-bottom: 16px;
+    }
+}

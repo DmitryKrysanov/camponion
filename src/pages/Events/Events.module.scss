@@ -1,0 +1,37 @@
+@import './../../constants/guideline.scss';
+
+.events {
+    height: calc(100vh - 64px);
+    position: relative;
+
+    .events_container {
+        max-width: 1024px;
+        margin: auto;
+
+        .events_header {
+            padding: 24px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .events_content {
+            height: calc(100vh - 164px);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 24px;
+
+            .content__left {
+                // overflow-y: scroll;
+                height: 100%;
+                border: 1px solid $border-color;
+                border-radius: 4px;
+            }
+
+            .content__right {
+                overflow-y: scroll;
+                height: 100%;
+            }
+        }
+    }
+
+}

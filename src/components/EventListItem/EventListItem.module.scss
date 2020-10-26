@@ -1,0 +1,19 @@
+@import './../../constants/guideline.scss';
+
+.event_list_item {
+    padding: 16px 16px;
+    border-bottom: 1px solid $border-color;
+    background-color: none;
+
+    h3 {
+        margin-bottom: 4px;
+    }
+
+    h4 {
+        color: $dark-medium-emphasis-font-color;
+    }
+
+    &:hover {
+        background-color: $hover-background-color;
+    }
+}

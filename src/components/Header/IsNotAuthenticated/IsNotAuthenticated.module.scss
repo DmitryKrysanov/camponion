@@ -1,0 +1,8 @@
+.header_actions {
+    list-style: none;
+    display: flex;
+
+    li:first-child {
+        margin-right: 16px;
+    }
+}

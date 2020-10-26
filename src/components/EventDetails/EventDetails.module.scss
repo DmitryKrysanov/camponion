@@ -1,0 +1,21 @@
+.event_details {
+
+    .event_details_header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    .row {
+        margin-bottom: 16px;
+
+        &__half {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .half_item {
+            width: 49%;
+        }
+    }
+}

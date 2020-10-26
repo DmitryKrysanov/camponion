@@ -1,0 +1,59 @@
+.auth {
+    max-width: 1025px;
+    height: calc(100vh - 64px);
+    margin: auto;
+    position: relative;
+
+    .loader {
+        position: absolute;
+        top: 64px;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .auth_img {
+        height: 100%;
+        position: relative;
+
+        img {
+            width: auto;
+            height: 80%;
+            display: block;
+
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                height: auto;
+                transform: translateY(-80%);
+            }
+
+            @media screen and (max-width: 414px) {
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+
+    .auth_form {
+        width: 320px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+
+        transform: translateY(-50%);
+
+        @media screen and (max-width: 1024px) {
+            right: 50%;
+            transform: translate(50%, -50%)
+        }
+
+        @media screen and (max-width: 768px) {
+            right: 50%;
+            transform: translate(50%, -50%)
+        }
+    }
+}

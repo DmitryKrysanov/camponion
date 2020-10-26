@@ -1,0 +1,29 @@
+@import './../../constants/guideline.scss';
+
+.alert {
+    width: 320px;
+    padding: 16px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.32);
+
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    &__success {
+        background-color: $success-color;
+    }
+
+    &__error {
+        background-color: #f44336;
+    }
+
+    h4 {
+        color: #fff;
+    }
+
+}

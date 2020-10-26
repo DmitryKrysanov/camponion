@@ -1,0 +1,14 @@
+@import './../../constants/guideline.scss';
+
+.header {  
+    height: 64px;
+    padding: 0 16px;
+    background-color: $dark-background-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        color: #fff;
+    }
+}

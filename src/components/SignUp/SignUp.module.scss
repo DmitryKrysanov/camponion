@@ -1,0 +1,35 @@
+.signup {
+    padding: 24px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.12);
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.12);
+    border-radius: 4px;
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    .input {
+        margin-bottom: 16px;
+        
+        &__password {
+            position: relative;
+            
+            button {
+                background: none;
+                border: none;
+                position: absolute;
+                top: 20px;
+                right: 16px;
+                z-index: 1;
+            }
+        }
+    }
+
+    .terms {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+}

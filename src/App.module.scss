@@ -1,0 +1,16 @@
+.app {
+    width: 100%;
+
+    @media screen and (max-width: 414px) {
+        height: auto;
+    }
+
+    .content_wrapper {
+        height: calc(100vh - 64px);
+        padding: 0 24px;
+
+        @media screen and (max-width: 414px) {
+            padding: 0 16px;
+        }
+    }
+}
